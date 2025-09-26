@@ -6,7 +6,7 @@ import './style.css';
 export function Home() {
 	return (
 		<div class="home">
-			<section class="components">
+			<section class="components align-center justify-center">
 				<Card
 					profile={profile}
 					name="Sarah Dole"
