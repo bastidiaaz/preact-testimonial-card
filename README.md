@@ -172,3 +172,5 @@ This project is part of a portfolio showcase and is available for educational pu
 ## 🤝 Contributing
 
 Feel free to submit issues and enhancement requests. This project serves as a demonstration of modern web development practices with a focus on accessibility and performance.
+
+Made with ❤️ by [Bastian Diaz](mailto:bastian.diaz.olave@gmail.com)
