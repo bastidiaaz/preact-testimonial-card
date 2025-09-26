@@ -10,7 +10,7 @@ interface CardProps {
 export const Card = memo(function Card({ profile, name, username, content }: CardProps) {
 	return (
 		<article 
-			class="card flex flex-col w-[340px] bg-white p-6 rounded-lg shadow-md items-start gap-4 focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-offset-2"
+			class="card flex flex-col w-[340px] bg-white p-6 rounded-lg shadow-sm items-start gap-4 focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-offset-2"
 			role="article"
 			aria-labelledby={`card-title-${username}`}
 			tabIndex={0}
@@ -23,7 +23,7 @@ export const Card = memo(function Card({ profile, name, username, content }: Car
 					loading="lazy"
 					decoding="async"
 				/>
-				<div class="card__profile__info flex flex-col items-start gap-1 flex-1">
+				<div class="card__profile__info flex flex-col items-start gap-[1px] flex-1">
 					<h2 
 						id={`card-title-${username}`}
 						class="text-lg font-semibold self-stretch text-neutral-900 text-justify"
